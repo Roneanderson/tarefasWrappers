@@ -26,9 +26,12 @@ import java.util.Scanner;
  */
 public class PrimitivoWrappers {
     public static void main(String[] args) {
-        int numero = 158000;
+        //autoboxing
+        Long numero = Long.valueOf(12345);
         System.out.println(numero);
-        short numero2 = (short) numero;
+        //Boxing
+        Long numero2 = 12345L;
         System.out.println(numero2);
+
     }
 }
